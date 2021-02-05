@@ -8,10 +8,13 @@ By Shani Cunningham
 * CSS
 * HTML
 
-# Comprised of
+## Comprised of
 * Home banner
 * Skills
 * Projects
 * Education
 * Contact
 * Bio
+
+## Mock Up
+![Mock Up Images](./portfolio-mockup.xd)
