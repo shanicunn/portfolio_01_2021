@@ -17,4 +17,6 @@ By Shani Cunningham
 * Bio
 
 ## Mock Up
-![Mock Up Images](./portfolio-mockup.xd)
+![Mock Up Banner](/Home.png)
+![Mock Up Skills and Projects](/Skills-Projects.png)
+![Mock Up Education, Contact, and Bio](/Education-Contact-Biography.png)
