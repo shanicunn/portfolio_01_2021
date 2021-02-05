@@ -38,16 +38,16 @@
   margin-left: 10px;
 }
 .App-link {
-  color: #61dafb;
+  color: #352A55;
 }
 /* ////////////////////
         HOME
 //////////////////// */
 .Home {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-image: url(./assets/shaniedits-6.jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: left center;
@@ -59,11 +59,11 @@
   text-transform: uppercase;
   color: #352A55;
   font-size: 90px;
-  /* margin-left: 45%; */
+  margin-left: 45%;
   text-shadow: #7f7979 1px 1px 2px;
   position: relative;
   top: 200px;
-  left: 700px;
+  /* left: 700px; */
 }
 #Shani {
   color: #FFA500;
@@ -76,18 +76,18 @@
   display: inline;
   font-size: 40px;
   color: #5f5b6b;
-  /* margin-left: 50%; */
+  margin-left: 48%;
   text-shadow: #7f7979 1px 1px 2px;
   position: relative;
   top: 240px;
-  left: 700px;
+  /* left: 500px; */
 }
 #Logos {
-  /* margin-left: 65%; */
+  margin-left: 60%;
   text-shadow: #7f7979 1px 1px 2px;
   position: relative;
   top: 280px;
-  left: 700px;
+  /* left: 700px; */
   height: 40px;
 }
 #Logos img, #Logos-contact img {
@@ -205,13 +205,21 @@ li {
   /* border-right: 2px solid #5f5b6b; */
   margin-left: 10px;
 }
+
+#main-contact {
+  grid-area: main-contact;
+}
 .contact article {
   color: #352A55;
   grid-area: contact;
   margin-left: 10px;
+  
 }
+
 #Logos-contact {
-  display: inline;
+  /* display: inline; */
+  display: flex;
+  flex-flow: wrap ;
 }
 .bio {
   color: #FFA500;

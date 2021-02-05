@@ -19,10 +19,12 @@ function Edu_Contact_Bio() {
 
             <section className="contact">
                 <h2 class="section-title" id="main-contact">Contact Me:</h2>
-                <article>
+                <article id="info">
                      <p>SHANI CUNNINGHAM <br />
-                    <email>shanicunn@gmail.com</email>
+                    shanicunn@gmail.com
                 </p>
+                </article>
+                <article>
                 <h3 id="Logos-contact">
                 <img src={email} alt="email"/>
                 <img src={linkedIn} alt="linkedin"/>
