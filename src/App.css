@@ -90,7 +90,7 @@
   left: 700px;
   height: 40px;
 }
-img {
+#Logos img, #Logos-contact img {
   padding: 20px;
 }
 
@@ -199,13 +199,13 @@ li {
   width: 100vw;
   height: 100vh;
 }
-.education {
+.education article {
   color: #FFA500;
   grid-area: education;
-  border-right: 2px solid #5f5b6b;
+  /* border-right: 2px solid #5f5b6b; */
   margin-left: 10px;
 }
-.contact {
+.contact article {
   color: #352A55;
   grid-area: contact;
   margin-left: 10px;
@@ -227,9 +227,17 @@ li {
 #headshot {
   height: 400px;
   grid-area: headshot;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #blurb {
   grid-area: blurb;
+  border: 1px solid #5f5b6b;
+  font-size: 18px;
+  height:360px ;
+  padding: 20px;
+  width: 95%;
+  line-height: 2;
 }
 /* ////////////////////
     FOOTER
