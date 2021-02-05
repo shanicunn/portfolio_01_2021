@@ -1,19 +1,13 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +16,230 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* ////////////////////
+        APP
+//////////////////// */
+.App {
+  font-family: 'Raleway', sans-serif;
+  background-color: #EFEFEF;
+}
+.section-title {
+  margin-left: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+/* ////////////////////
+        HOME
+//////////////////// */
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/shaniedits-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: left center;
+}
+#Title {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #352A55;
+  font-size: 90px;
+  /* margin-left: 45%; */
+  text-shadow: #7f7979 1px 1px 2px;
+  position: relative;
+  top: 200px;
+  left: 700px;
+}
+#Shani {
+  color: #FFA500;
+}
+#Title-Secondary {
+  border-top: #5f5b6b 1px solid;
+  border-bottom: #5f5b6b 1px solid;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  display: inline;
+  font-size: 40px;
+  color: #5f5b6b;
+  /* margin-left: 50%; */
+  text-shadow: #7f7979 1px 1px 2px;
+  position: relative;
+  top: 240px;
+  left: 700px;
+}
+#Logos {
+  /* margin-left: 65%; */
+  text-shadow: #7f7979 1px 1px 2px;
+  position: relative;
+  top: 280px;
+  left: 700px;
+  height: 40px;
+}
+img {
+  padding: 20px;
+}
+
+/* ////////////////////
+    SKILLS & PROJECTS
+//////////////////// */
+.Skills_Projects {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+                      "Skills" 
+                      "Projects";
+}
+.Skills {
+  grid-area: Skills;
+  display: grid;
+  grid-template-areas:
+                      "main-skills main-skills"
+                      "skills-1 skills-2";
+}
+#main-skills {
+  grid-area: main-skills;
+  color: #FFA500;
+}
+td, tr {
+  padding: 15px;
+}
+#skills-1 {
+  grid-area: skills-1;
+}
+#skills-2 {
+  grid-area: skills-2;
+}
+li {
+  list-style: none;
+}
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #FFA500;
+  box-shadow: #5f5b6b 1px 1px 1px;
+}
+#progress-html {
+  background: #352A55;
+  width: 65%;
+  height: 100%;
+}
+#progress-css {
+  background: #352A55;
+  width: 80%;
+  height: 100%;
+}
+#progress-js {
+  background: #352A55;
+  width: 65%;
+  height: 100%;
+}
+#progress-react {
+  background: #352A55;
+  width: 75%;
+  height: 100%;
+}
+#progress-java {
+  background: #352A55;
+  width: 40%;
+  height: 100%;
+}
+#progress-springboot {
+  background: #352A55;
+  width: 35%;
+  height: 100%;
+}
+#progress-python {
+  background: #352A55;
+  width: 45%;
+  height: 100%;
+}
+#progress-git {
+  background: #352A55;
+  width: 70%;
+  height: 100%;
+}
+.Projects {
+  grid-area: Projects;
+  border-top: 2px solid #5f5b6b;
+}
+#main-projects {
+  color: #352A55;
+  display: block;
+}
+#projects-desc {
+  display: flex;
+}
+.screenshot {
+  height: 180px;
+}
+/* ////////////////////
+  EDU, CONTACT, BIO
+//////////////////// */
+.Edu_Contact_Bio {
+  display: grid;
+  grid-template-areas:  "education contact"
+                        "bio bio";
+  border-top: 2px solid #5f5b6b;
+  width: 100vw;
+  height: 100vh;
+}
+.education {
+  color: #FFA500;
+  grid-area: education;
+  border-right: 2px solid #5f5b6b;
+  margin-left: 10px;
+}
+.contact {
+  color: #352A55;
+  grid-area: contact;
+  margin-left: 10px;
+}
+#Logos-contact {
+  display: inline;
+}
+.bio {
+  color: #FFA500;
+  grid-area: bio;
+  border-top: 2px solid #5f5b6b;
+  display: grid;
+  grid-template-areas: "main-bio main-bio"
+                        "headshot blurb";
+}
+#main-bio {
+  grid-area: main-bio;
+}
+#headshot {
+  height: 400px;
+  grid-area: headshot;
+}
+#blurb {
+  grid-area: blurb;
+}
+/* ////////////////////
+    FOOTER
+//////////////////// */
+.Footer {
+  background-color: #5f5b6b ;
+  color: #EFEFEF;
+}
+.Footer p {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
 }
